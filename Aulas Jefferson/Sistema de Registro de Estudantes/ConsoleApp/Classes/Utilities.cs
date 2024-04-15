@@ -1,28 +1,28 @@
 using System;
 using System.Runtime.CompilerServices;
 
-class Pilha
+class Stack
 {
-    private List<object> pilha = new List<object>();
+    private List<object> stack = new List<object>();
 
     public void Push(object obj) // Adicionar um novo elemento à pilha, colocando-o no topo.
     {
-        pilha.Add(obj);
+        stack.Add(obj);
     }
 
     public void Pop()
     {
-        pilha.RemoveAt(pilha.Count - 1); // Remover o elemento mais recentemente adicionado à pilha, que está no topo.
+        stack.RemoveAt(stack.Count - 1); // Remover o elemento mais recentemente adicionado à pilha, que está no topo.
     }
 
     public object Peek() // Visualizar o elemento mais recentemente adicionado à pilha, sem removê-lo.
     {
-        return pilha[pilha.Count - 1]; 
+        return stack[stack.Count - 1]; 
     }
 
     public bool IsEmpty() // Verificar se a pilha está vazia.
     {
-        if (pilha.Count == 0){
+        if (stack.Count == 0){
             return true;
         }
         return false;
@@ -30,34 +30,34 @@ class Pilha
 
     public int Size() // Obter o número de elementos na pilha.
     {
-        return pilha.Count;
+        return stack.Count;
     }
 }
 
-class Fila
+class Queue
 {
-    private List<object> fila = new List<object>();
+    private List<object> queue = new List<object>();
 
     public void Enqueue(object obj) // Adicionar um novo elemento à fila, colocando-o no final.
     {
-        fila.Add(obj); 
+        queue.Add(obj); 
     } 
 
     public object Dequeue() // Remover e retornar o primeiro elemento da fila.
     {
-        object temp = fila[0];
-        fila.RemoveAt(0);
+        object temp = queue[0];
+        queue.RemoveAt(0);
         return temp;
     }
 
     public object Peek() // Visualizar o primeiro elemento da fila, sem removê-lo.
     {
-        return fila[0];
+        return queue[0];
     }
 
     public bool IsEmpty() // Verificar se a fila está vazia.
     {
-        if (fila.Count == 0){
+        if (queue.Count == 0){
             return true;
         }
         return false;
@@ -65,6 +65,6 @@ class Fila
 
     public int Size() // Obter o número de elementos na fila.
     {
-        return fila.Count;
+        return queue.Count;
     }
 }
