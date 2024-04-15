@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 class Student
 {
@@ -13,6 +14,7 @@ class Student
         this.id = nextId++;
         this.name = name;
         this.birthDate = new DateTime(yearBirth, monthBirth, dayBirth);
+        this.grades = new List<float>();
     }
 
     public int GetAge() // calcula e retorna a idade do estudante
@@ -36,7 +38,7 @@ class Student
     {
         grades.Add(grade);
     }
-    
+
     public int CountGrades() // retorna a quantidade de notas do estudante
     {
         return grades.Count;
@@ -65,5 +67,5 @@ class Student
         }
         return sumGrades/grades.Count;
     }
-    
+
 }
