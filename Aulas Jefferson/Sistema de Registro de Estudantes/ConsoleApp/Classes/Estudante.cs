@@ -56,7 +56,7 @@ class Student
 
     public void RemoveLastGrade() // remove a última nota adicionada
     {
-        grades.Remove(grades.Count - 1);
+        grades.RemoveAt(grades.Count - 1);
     }
 
     public float CalcAvarage() // retorna a média das notas
