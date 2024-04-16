@@ -4,15 +4,19 @@ using System.Collections.Generic;
 class Student
 {
     private int id;
-    public string name;
+    private string name;
     private DateTime birthDate;
+    private int registrationNumber;
+    private string course;
     private List<float> grades;
     private static int nextId = 1;
 
-    public Student(string name, int dayBirth, int monthBirth, int yearBirth) // construtor da classe
+    public Student(int registrationNumber, string name, int dayBirth, int monthBirth, int yearBirth, string course) // construtor da classe
     {
         this.id = nextId++;
         this.name = name;
+        this.registrationNumber = registrationNumber;
+        this.course = course;
         this.birthDate = new DateTime(yearBirth, monthBirth, dayBirth);
         this.grades = new List<float>();
     }
@@ -26,6 +30,31 @@ class Student
         else{
             return (int)now.Year - (int)birthDate.Year;
         }
+    }
+
+    public int GetId()
+    {
+        return id;
+    }
+
+    public int GetRegistrationNumber()
+    {
+        return registrationNumber;
+    }
+
+    public string GetCourse()
+    {
+        return course;
+    }
+
+    public string GetBirthDate()
+    {
+        return birthDate.ToString("dd/MM/yyyy");
+    }
+
+    public string GetName()
+    {
+        return name;
     }
 
     public void SetBirthDate(int dayBirth, int monthBirth, int yearBirth) // define a idade do estudante

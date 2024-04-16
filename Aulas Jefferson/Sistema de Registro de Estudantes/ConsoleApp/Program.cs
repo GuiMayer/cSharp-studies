@@ -18,7 +18,8 @@ class Interface // classe responsável pelo loop principal do programa
         Console.WriteLine("2. Consultar estudante pelo ID.");
         Console.WriteLine("3. Inserir novo estudante.");
         Console.WriteLine("4. Inserir nova nota para o estudante pelo ID.");
-        Console.WriteLine("5. Exibir a média das notas de cada estudante");
+        Console.WriteLine("5. Exibir a média das notas de cada estudante.");
+        Console.WriteLine("6. Encerrar o programa.");
         string choice = Console.ReadLine();
         int result;
         int.TryParse(choice, out result);
@@ -38,19 +39,20 @@ class Interface // classe responsável pelo loop principal do programa
                 {
                     Console.WriteLine("ID:" + student.GetId() + ", Nome:" + student.GetName() + ", Idade: " + student.GetAge());
                 }
+                Console.WriteLine("");
                 break;
             case 2:
                 Console.WriteLine("Insira o ID do aluno:");
                 string idChosen = Console.ReadLine();
                 foreach (Student student in studentsList)
                 {
-                    if (student.GetId().ToString() == idChosen){
-                        Console.WriteLine("ID:" + student.GetId() + ", Nome:" + student.GetName() + ", Idade: " + student.GetAge());
-                        Console.WriteLine("Número de matrícula:" + student.GetRegistrationNumber() + ", Curso:" + student.GetCourse() + ", Data de nascimento: " + student.GetBirthDate());
+                    if (student.GetId() == Convert.ToInt32(idChosen)){
+                        Console.WriteLine("ID: " + student.GetId() + ", Nome: " + student.GetName() + ", Idade: " + student.GetAge());
+                        Console.WriteLine("Número de matrícula: " + student.GetRegistrationNumber() + ", Curso:" + student.GetCourse() + ", Data de nascimento: " + student.GetBirthDate());
                         break;
                     }
                 }
-                Console.WriteLine("Aluno não encontrado.");
+                // Console.WriteLine("Aluno não encontrado.");
                 break;
             case 3:
                 Console.WriteLine("Insira o nome do estudante:");
@@ -81,21 +83,24 @@ class Interface // classe responsável pelo loop principal do programa
                 string idChosen2 = Console.ReadLine();
                 foreach (Student student in studentsList)
                 {
-                    if (student.GetId().ToString() == idChosen2){
-                        Console.WriteLine("Insira o dia, mês e ano de nascimento do estudante, separado por Enter:");
+                    if (student.GetId() == Convert.ToInt32(idChosen2)){
+                        Console.WriteLine("Insira a nota do aluno:");
                         string newGrade = Console.ReadLine();
                         float tempGrade = (float)Convert.ToDouble(newGrade);
                         student.AddGrade(tempGrade);
                         break;
                     }
                 }
-                Console.WriteLine("Aluno não encontrado.");
+                // Console.WriteLine("Aluno não encontrado.");
                 break;
             case 5:
                 foreach (Student student in studentsList)
                 {
-                    Console.WriteLine("ID:" + student.GetId() + "Número de matrícula:" + student.GetRegistrationNumber() + ", Nome:" + student.GetName() + ", Média: " + student.CalcAvarage());
+                    Console.WriteLine("ID: " + student.GetId() + "Número de matrícula: " + student.GetRegistrationNumber() + ", Nome: " + student.GetName() + ", Média: " + student.CalcAvarage());
                 }
+                break;
+            case 6:
+                Environment.Exit(0);
                 break;
         }
     }
