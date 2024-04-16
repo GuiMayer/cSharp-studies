@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 class Student
 {
@@ -8,7 +9,7 @@ class Student
     private DateTime birthDate;
     private int registrationNumber;
     private string course;
-    private List<float> grades;
+    private List<double> grades;
     private static int nextId = 1;
 
     public Student(int registrationNumber, string name, int dayBirth, int monthBirth, int yearBirth, string course) // construtor da classe
@@ -18,7 +19,7 @@ class Student
         this.registrationNumber = registrationNumber;
         this.course = course;
         this.birthDate = new DateTime(yearBirth, monthBirth, dayBirth);
-        this.grades = new List<float>();
+        this.grades = new List<double>();
     }
 
     public int GetAge() // calcula e retorna a idade do estudante
@@ -62,7 +63,23 @@ class Student
         this.birthDate = new DateTime(yearBirth, monthBirth, dayBirth);
     }
 
-    public void AddGrade(float grade) // adiciona uma nota do estudante
+    public void SetName(string name){ // define o nome do estudante
+        this.name = name;
+    }
+
+    public void SetRegistrationNumber(int registrationNumber){ // define o número de matrícula do estudante
+        this.registrationNumber = registrationNumber;
+    }
+
+    public void SetCourse(string course){ // define o curso do estudante
+        this.course = course;
+    }
+
+    public void ChangeGradeAt(double grade, int position){ // muda a nota do estudante na posição especificada
+
+    }
+
+    public void AddGrade(double grade) // adiciona uma nota do estudante
     {
         grades.Add(grade);
     }
@@ -72,7 +89,7 @@ class Student
         return grades.Count;
     }
 
-    public List<float> GetGrades() // retorna uma lista com todas as notas
+    public List<double> GetGrades() // retorna uma lista com todas as notas
     {
         return grades;
     }
@@ -82,18 +99,20 @@ class Student
         grades.Clear();
     }
 
-    public void RemoveGradeAt(int num) // remove a nota especificada pela posição na lista
+    public void RemoveGradeAt(int num) // remove a nota especificada pela posição especificada
     {
         grades.RemoveAt(num);
     }
 
-    public float CalcAvarage() // retorna a média das notas
+    public double CalcAvarage() // retorna a média das notas
     {
-        float sumGrades = 0;
-        foreach (var grade in grades){
-            sumGrades += grade;
+        try {
+            double sumGrades = grades.Sum();
+            return grades.Average();
         }
-        return sumGrades/grades.Count;
+        catch (Exception) {
+            return 0;
+        }
     }
 
 }
