@@ -26,7 +26,6 @@ class Student
         else{
             return (int)now.Year - (int)birthDate.Year;
         }
-
     }
 
     public void SetBirthDate(int dayBirth, int monthBirth, int yearBirth) // define a idade do estudante
@@ -54,9 +53,9 @@ class Student
         grades.Clear();
     }
 
-    public void RemoveLastGrade() // remove a última nota adicionada
+    public void RemoveGradeAt(int num) // remove a nota especificada pela posição na lista
     {
-        grades.RemoveAt(grades.Count - 1);
+        grades.RemoveAt(num);
     }
 
     public float CalcAvarage() // retorna a média das notas
