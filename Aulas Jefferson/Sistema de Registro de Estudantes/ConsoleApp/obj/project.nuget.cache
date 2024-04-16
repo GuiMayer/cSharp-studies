@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "4sgrng3SwEKv5z9uoTMC5IwVq+YOt+YhGaVdvlD3dIlzx1ib+i2KQsufTHEPlGoVBbvwaA4133z+uqtZYh3lDg==",
+  "dgSpecHash": "5E3DP+P6nZAvoQJxs0zKLP4D7WxOwc0IDv+vVwCIoLrXuHijljjFAC28AmDxuFBRmH2RSyVvnqRMnHBbrfzn/Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\usuario\\Documents\\GitHub\\cSharp-studies\\Aulas Jefferson\\Sistema de Registro de Estudantes\\ConsoleApp\\ConsoleApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\usuario\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

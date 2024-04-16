@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "y3+XvzIePcOdWCOawaNUS69ctjXgks88lfMKpHc5FPrX18ChDaHdrWrfkWNHVOklMd+8HT4eChAbhfhm46bcKw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\usuario\\Documents\\GitHub\\cSharp-studies\\Aulas Jefferson\\Sistema de Registro de Estudantes\\Sistema de Registro de Estudantes.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\usuario\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

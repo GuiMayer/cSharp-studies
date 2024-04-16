@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\usuario\\Documents\\GitHub\\cSharp-studies\\Aulas Jefferson\\Sistema de Registro de Estudantes\\ConsoleApp\\ConsoleApp.csproj": {}
+    "C:\\Users\\usuario\\Documents\\GitHub\\cSharp-studies\\Aulas Jefferson\\Sistema de Registro de Estudantes\\Sistema de Registro de Estudantes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\usuario\\Documents\\GitHub\\cSharp-studies\\Aulas Jefferson\\Sistema de Registro de Estudantes\\ConsoleApp\\ConsoleApp.csproj": {
+    "C:\\Users\\usuario\\Documents\\GitHub\\cSharp-studies\\Aulas Jefferson\\Sistema de Registro de Estudantes\\Sistema de Registro de Estudantes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\usuario\\Documents\\GitHub\\cSharp-studies\\Aulas Jefferson\\Sistema de Registro de Estudantes\\ConsoleApp\\ConsoleApp.csproj",
-        "projectName": "ConsoleApp",
-        "projectPath": "C:\\Users\\usuario\\Documents\\GitHub\\cSharp-studies\\Aulas Jefferson\\Sistema de Registro de Estudantes\\ConsoleApp\\ConsoleApp.csproj",
+        "projectUniqueName": "C:\\Users\\usuario\\Documents\\GitHub\\cSharp-studies\\Aulas Jefferson\\Sistema de Registro de Estudantes\\Sistema de Registro de Estudantes.csproj",
+        "projectName": "Sistema de Registro de Estudantes",
+        "projectPath": "C:\\Users\\usuario\\Documents\\GitHub\\cSharp-studies\\Aulas Jefferson\\Sistema de Registro de Estudantes\\Sistema de Registro de Estudantes.csproj",
         "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\usuario\\Documents\\GitHub\\cSharp-studies\\Aulas Jefferson\\Sistema de Registro de Estudantes\\ConsoleApp\\obj\\",
+        "outputPath": "C:\\Users\\usuario\\Documents\\GitHub\\cSharp-studies\\Aulas Jefferson\\Sistema de Registro de Estudantes\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
