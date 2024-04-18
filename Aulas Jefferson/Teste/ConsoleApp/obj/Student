@@ -1,0 +1,105 @@
+using System;
+using System.Collections.Generic;
+
+namespace StudentManagementSystem
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Interface userInterface = new Interface();
+            userInterface.Begin();
+        }
+    }
+
+    class Student
+    {
+        private static int nextId = 1;
+
+        public int Id { get; private set; }
+        public string Name { get; set; }
+        public int RegistrationNumber { get; set; }
+        public DateTime BirthDate { get; set; }
+        public string Course { get; set; }
+        public List<float> Grades { get; set; }
+
+        public Student(int registrationNumber, string name, int dayBirth, int monthBirth, int yearBirth, string course)
+        {
+            Id = nextId++;
+            Name = name;
+            RegistrationNumber = registrationNumber;
+            try
+            {
+                BirthDate = new DateTime(yearBirth, monthBirth, dayBirth);
+            }
+            catch (ArgumentOutOfRangeException)
+            {
+                BirthDate = DateTime.MinValue;
+            }
+            Course = course;
+            Grades = new List<float>();
+        }
+
+        public int GetAge()
+        {
+            DateTime now = DateTime.Now;
+            int age = now.Year - BirthDate.Year;
+            if (now.Month < BirthDate.Month || (now.Month == BirthDate.Month && now.Day < BirthDate.Day))
+            {
+                age--;
+            }
+            return age;
+        }
+
+        public void SetBirthDate(int dayBirth, int monthBirth, int yearBirth)
+        {
+            try
+            {
+                BirthDate = new DateTime(yearBirth, monthBirth, dayBirth);
+            }
+            catch (ArgumentOutOfRangeException)
+            {
+                BirthDate = DateTime.MinValue;
+            }
+        }
+
+        public float CalcAverage()
+        {
+            if (Grades.Count > 0)
+            {
+                return Grades.Sum() / Grades.Count;
+            }
+            return 0;
+        }
+
+        // Implemente os outros métodos conforme necessário
+    }
+
+    class Interface
+    {
+        private List<Student> studentsList;
+
+        public Interface()
+        {
+            studentsList = new List<Student>();
+        }
+
+        public void Mainmenu()
+        {
+            // Implemente o menu principal aqui
+        }
+
+        public void Choice(int caseValue)
+        {
+            // Implemente o switch case para as opções do menu
+        }
+
+        public void Begin()
+        {
+            while (true)
+            {
+                Mainmenu();
+            }
+        }
+    }
+}

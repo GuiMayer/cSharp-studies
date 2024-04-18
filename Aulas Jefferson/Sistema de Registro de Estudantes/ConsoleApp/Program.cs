@@ -6,13 +6,18 @@ using System.ComponentModel.Design;
 class Interface // classe responsável pelo loop principal do programa
 {
     private List<Student> studentsList;
+    string filePath;
 
     public Interface() // Construtor da classe
     {
         studentsList = new List<Student>();
 
+        filePath = "save.json";
+        FileSaveManager.LoadStudentsListFromJsonFile(studentsList, filePath);
+
         studentsList.Add(new Student(125312, "Guilherme Mayer", 17, 02, 2005, "TADS"));
         studentsList.Add(new Student(125313, "Bruna Camila Silveira", 20, 08, 2005, "Quimica"));
+        FileSaveManager.SaveStudentListToJson(studentsList, filePath);
     }
     public int MainMenu() // Menu principal do programa
     {
@@ -24,6 +29,8 @@ class Interface // classe responsável pelo loop principal do programa
         Console.WriteLine("5. Inserir nova nota para o estudante pelo ID.");
         Console.WriteLine("6. Exibir a média das notas de cada estudante.");
         Console.WriteLine("7. Editar os dados do estudante pelo ID.");
+        Console.WriteLine("8. Salvar dados.");
+        Console.WriteLine("9. Carregar dados.");
         Console.WriteLine("0. Encerrar o programa.");
         string choice = Console.ReadLine();
         int result;
@@ -259,11 +266,20 @@ class Interface // classe responsável pelo loop principal do programa
                 }
                 break;
 
-            default: // Qualquer falor fora das opções do menu
+            case 8:
+                FileSaveManager.SaveStudentListToJson(studentsList, filePath);
+                break;
+
+            case 9:
+                FileSaveManager.LoadStudentsListFromJsonFile(studentsList, filePath);
+                break;
+
+            default: // Qualquer valor fora das opções do menu
                 Console.WriteLine("Por favor insira um número válido!");
                 Choice();
                 break;
         }
+        FileSaveManager.SaveStudentListToJson(studentsList, filePath);
     }
 
     public void Begin() // Inicia o loop principal do programa

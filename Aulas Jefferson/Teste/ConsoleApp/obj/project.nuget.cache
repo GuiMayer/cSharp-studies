@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "9uH2RSmC4Og7+qLpD1/NXfwQtwUjvk89wWJYXabZyocP/BvWNFR9fPxUSM81gDrCdvCpQduvFsw1iOal+fGZrw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\usuario\\Documents\\GitHub\\cSharp-studies\\Aulas Jefferson\\Teste\\ConsoleApp\\ConsoleApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\usuario\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

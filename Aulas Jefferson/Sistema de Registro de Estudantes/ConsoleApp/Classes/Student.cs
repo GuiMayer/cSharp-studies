@@ -18,7 +18,15 @@ class Student
         this.name = name;
         this.registrationNumber = registrationNumber;
         this.course = course;
-        this.birthDate = new DateTime(yearBirth, monthBirth, dayBirth);
+        try
+        {
+            this.birthDate = new DateTime(yearBirth, monthBirth, dayBirth);
+        }
+        catch (Exception ex)
+        {
+            this.birthDate = new DateTime(1, 1, 1);
+        }
+
         this.grades = new List<double>();
     }
 
