@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\usuario\\Documents\\GitHub\\cSharp-studies\\Aulas Jefferson\\Teste\\Teste.csproj": {}
+    "C:\\Users\\usuario\\Documents\\GitHub\\cSharp-studies\\Aulas Jefferson\\Teste\\Teste.csproj": {}
   },
   "projects": {
-    "c:\\Users\\usuario\\Documents\\GitHub\\cSharp-studies\\Aulas Jefferson\\Teste\\Teste.csproj": {
+    "C:\\Users\\usuario\\Documents\\GitHub\\cSharp-studies\\Aulas Jefferson\\Teste\\Teste.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\usuario\\Documents\\GitHub\\cSharp-studies\\Aulas Jefferson\\Teste\\Teste.csproj",
+        "projectUniqueName": "C:\\Users\\usuario\\Documents\\GitHub\\cSharp-studies\\Aulas Jefferson\\Teste\\Teste.csproj",
         "projectName": "Teste",
-        "projectPath": "c:\\Users\\usuario\\Documents\\GitHub\\cSharp-studies\\Aulas Jefferson\\Teste\\Teste.csproj",
+        "projectPath": "C:\\Users\\usuario\\Documents\\GitHub\\cSharp-studies\\Aulas Jefferson\\Teste\\Teste.csproj",
         "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\usuario\\Documents\\GitHub\\cSharp-studies\\Aulas Jefferson\\Teste\\obj\\",
+        "outputPath": "C:\\Users\\usuario\\Documents\\GitHub\\cSharp-studies\\Aulas Jefferson\\Teste\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"

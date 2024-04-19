@@ -92,6 +92,12 @@ class Student
         grades.Add(grade);
     }
 
+    public void SetGrades(List<double> grades)
+    {
+        this.grades = grades;
+    }
+
+
     public int CountGrades() // retorna a quantidade de notas do estudante
     {
         return grades.Count;

@@ -123,11 +123,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\usuario\\Documents\\GitHub\\cSharp-studies\\Aulas Jefferson\\Teste\\Teste.csproj",
+      "projectUniqueName": "C:\\Users\\usuario\\Documents\\GitHub\\cSharp-studies\\Aulas Jefferson\\Teste\\Teste.csproj",
       "projectName": "Teste",
-      "projectPath": "c:\\Users\\usuario\\Documents\\GitHub\\cSharp-studies\\Aulas Jefferson\\Teste\\Teste.csproj",
+      "projectPath": "C:\\Users\\usuario\\Documents\\GitHub\\cSharp-studies\\Aulas Jefferson\\Teste\\Teste.csproj",
       "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\usuario\\Documents\\GitHub\\cSharp-studies\\Aulas Jefferson\\Teste\\obj\\",
+      "outputPath": "C:\\Users\\usuario\\Documents\\GitHub\\cSharp-studies\\Aulas Jefferson\\Teste\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -193,7 +193,7 @@
       "code": "NU1604",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "A dependência do projeto Newtonsoft.Json.dll não contém nenhum limite inferior inclusivo. Inclua um limite inferior na versão de dependência para assegurar resultados de restauração coerentes.",
+      "message": "Project dependency Newtonsoft.Json.dll does not contain an inclusive lower bound. Include a lower bound in the dependency version to ensure consistent restore results.",
       "libraryId": "Newtonsoft.Json.dll",
       "targetGraphs": [
         ".NETCoreApp,Version=v8.0"

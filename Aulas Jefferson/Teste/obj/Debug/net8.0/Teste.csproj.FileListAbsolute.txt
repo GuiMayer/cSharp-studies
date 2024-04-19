@@ -1,6 +1,0 @@
-C:\Users\usuario\Documents\GitHub\cSharp-studies\Aulas Jefferson\Teste\obj\Debug\net8.0\Teste.csproj.AssemblyReference.cache
-C:\Users\usuario\Documents\GitHub\cSharp-studies\Aulas Jefferson\Teste\obj\Debug\net8.0\Teste.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\usuario\Documents\GitHub\cSharp-studies\Aulas Jefferson\Teste\obj\Debug\net8.0\Teste.AssemblyInfoInputs.cache
-C:\Users\usuario\Documents\GitHub\cSharp-studies\Aulas Jefferson\Teste\obj\Debug\net8.0\Teste.AssemblyInfo.cs
-C:\Users\usuario\Documents\GitHub\cSharp-studies\Aulas Jefferson\Teste\obj\Debug\net8.0\Teste.csproj.CoreCompileInputs.cache
-C:\Users\usuario\Documents\GitHub\cSharp-studies\Aulas Jefferson\Teste\obj\Debug\net8.0\Teste.sourcelink.json
