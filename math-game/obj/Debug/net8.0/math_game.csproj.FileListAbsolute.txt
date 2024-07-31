@@ -1,0 +1,15 @@
+C:\Users\usuario\Documents\GitHub\cSharp-studies\math-game\bin\Debug\net8.0\math_game.exe
+C:\Users\usuario\Documents\GitHub\cSharp-studies\math-game\bin\Debug\net8.0\math_game.deps.json
+C:\Users\usuario\Documents\GitHub\cSharp-studies\math-game\bin\Debug\net8.0\math_game.runtimeconfig.json
+C:\Users\usuario\Documents\GitHub\cSharp-studies\math-game\bin\Debug\net8.0\math_game.dll
+C:\Users\usuario\Documents\GitHub\cSharp-studies\math-game\bin\Debug\net8.0\math_game.pdb
+C:\Users\usuario\Documents\GitHub\cSharp-studies\math-game\obj\Debug\net8.0\math_game.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usuario\Documents\GitHub\cSharp-studies\math-game\obj\Debug\net8.0\math_game.AssemblyInfoInputs.cache
+C:\Users\usuario\Documents\GitHub\cSharp-studies\math-game\obj\Debug\net8.0\math_game.AssemblyInfo.cs
+C:\Users\usuario\Documents\GitHub\cSharp-studies\math-game\obj\Debug\net8.0\math_game.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Documents\GitHub\cSharp-studies\math-game\obj\Debug\net8.0\math_game.sourcelink.json
+C:\Users\usuario\Documents\GitHub\cSharp-studies\math-game\obj\Debug\net8.0\math_game.dll
+C:\Users\usuario\Documents\GitHub\cSharp-studies\math-game\obj\Debug\net8.0\refint\math_game.dll
+C:\Users\usuario\Documents\GitHub\cSharp-studies\math-game\obj\Debug\net8.0\math_game.pdb
+C:\Users\usuario\Documents\GitHub\cSharp-studies\math-game\obj\Debug\net8.0\math_game.genruntimeconfig.cache
+C:\Users\usuario\Documents\GitHub\cSharp-studies\math-game\obj\Debug\net8.0\ref\math_game.dll
