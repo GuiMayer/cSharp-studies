@@ -1,0 +1,18 @@
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Aulas Jefferson\Sistema de Registro de Estudantes\bin\Debug\net8.0\Sistema de Registro de Estudantes.exe
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Aulas Jefferson\Sistema de Registro de Estudantes\bin\Debug\net8.0\Sistema de Registro de Estudantes.deps.json
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Aulas Jefferson\Sistema de Registro de Estudantes\bin\Debug\net8.0\Sistema de Registro de Estudantes.runtimeconfig.json
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Aulas Jefferson\Sistema de Registro de Estudantes\bin\Debug\net8.0\Sistema de Registro de Estudantes.dll
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Aulas Jefferson\Sistema de Registro de Estudantes\bin\Debug\net8.0\Sistema de Registro de Estudantes.pdb
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Aulas Jefferson\Sistema de Registro de Estudantes\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Aulas Jefferson\Sistema de Registro de Estudantes\obj\Debug\net8.0\Sistema de Registro de Estudantes.csproj.AssemblyReference.cache
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Aulas Jefferson\Sistema de Registro de Estudantes\obj\Debug\net8.0\Sistema de Registro de Estudantes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Aulas Jefferson\Sistema de Registro de Estudantes\obj\Debug\net8.0\Sistema de Registro de Estudantes.AssemblyInfoInputs.cache
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Aulas Jefferson\Sistema de Registro de Estudantes\obj\Debug\net8.0\Sistema de Registro de Estudantes.AssemblyInfo.cs
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Aulas Jefferson\Sistema de Registro de Estudantes\obj\Debug\net8.0\Sistema de Registro de Estudantes.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Aulas Jefferson\Sistema de Registro de Estudantes\obj\Debug\net8.0\Sistema de Registro de Estudantes.sourcelink.json
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Aulas Jefferson\Sistema de Registro de Estudantes\obj\Debug\net8.0\Sistema .E7E0522E.Up2Date
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Aulas Jefferson\Sistema de Registro de Estudantes\obj\Debug\net8.0\Sistema de Registro de Estudantes.dll
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Aulas Jefferson\Sistema de Registro de Estudantes\obj\Debug\net8.0\refint\Sistema de Registro de Estudantes.dll
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Aulas Jefferson\Sistema de Registro de Estudantes\obj\Debug\net8.0\Sistema de Registro de Estudantes.pdb
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Aulas Jefferson\Sistema de Registro de Estudantes\obj\Debug\net8.0\Sistema de Registro de Estudantes.genruntimeconfig.cache
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Aulas Jefferson\Sistema de Registro de Estudantes\obj\Debug\net8.0\ref\Sistema de Registro de Estudantes.dll

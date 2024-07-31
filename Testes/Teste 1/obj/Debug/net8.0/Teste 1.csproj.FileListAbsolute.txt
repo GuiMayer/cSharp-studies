@@ -1,0 +1,15 @@
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Testes\Teste 1\bin\Debug\net8.0\Teste 1.exe
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Testes\Teste 1\bin\Debug\net8.0\Teste 1.deps.json
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Testes\Teste 1\bin\Debug\net8.0\Teste 1.runtimeconfig.json
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Testes\Teste 1\bin\Debug\net8.0\Teste 1.dll
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Testes\Teste 1\bin\Debug\net8.0\Teste 1.pdb
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Testes\Teste 1\obj\Debug\net8.0\Teste 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Testes\Teste 1\obj\Debug\net8.0\Teste 1.AssemblyInfoInputs.cache
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Testes\Teste 1\obj\Debug\net8.0\Teste 1.AssemblyInfo.cs
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Testes\Teste 1\obj\Debug\net8.0\Teste 1.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Testes\Teste 1\obj\Debug\net8.0\Teste 1.sourcelink.json
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Testes\Teste 1\obj\Debug\net8.0\Teste 1.dll
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Testes\Teste 1\obj\Debug\net8.0\refint\Teste 1.dll
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Testes\Teste 1\obj\Debug\net8.0\Teste 1.pdb
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Testes\Teste 1\obj\Debug\net8.0\Teste 1.genruntimeconfig.cache
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Testes\Teste 1\obj\Debug\net8.0\ref\Teste 1.dll
