@@ -49,7 +49,7 @@ public class GameManager
         mathOperations.Add(2, "*");
         mathOperations.Add(3, "/");
         var equation = GenerateEquation();
-        Console.WriteLine($"{equation.a} {mathOperations[equation.mathOperation]} {equation.b} = {equation.result}");
+        //Console.WriteLine($"{equation.a} {mathOperations[equation.mathOperation]} {equation.b} = {equation.result}");
         Console.WriteLine($"{equation.a} _ {equation.b} = {equation.result}");
         int answer = int.Parse(Console.ReadLine());
         
