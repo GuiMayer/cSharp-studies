@@ -1,0 +1,14 @@
+/home/aluno/Documentos/TADS/Biblioteca/bin/Debug/net8.0/Biblioteca
+/home/aluno/Documentos/TADS/Biblioteca/bin/Debug/net8.0/Biblioteca.deps.json
+/home/aluno/Documentos/TADS/Biblioteca/bin/Debug/net8.0/Biblioteca.runtimeconfig.json
+/home/aluno/Documentos/TADS/Biblioteca/bin/Debug/net8.0/Biblioteca.dll
+/home/aluno/Documentos/TADS/Biblioteca/bin/Debug/net8.0/Biblioteca.pdb
+/home/aluno/Documentos/TADS/Biblioteca/obj/Debug/net8.0/Biblioteca.GeneratedMSBuildEditorConfig.editorconfig
+/home/aluno/Documentos/TADS/Biblioteca/obj/Debug/net8.0/Biblioteca.AssemblyInfoInputs.cache
+/home/aluno/Documentos/TADS/Biblioteca/obj/Debug/net8.0/Biblioteca.AssemblyInfo.cs
+/home/aluno/Documentos/TADS/Biblioteca/obj/Debug/net8.0/Biblioteca.csproj.CoreCompileInputs.cache
+/home/aluno/Documentos/TADS/Biblioteca/obj/Debug/net8.0/Biblioteca.dll
+/home/aluno/Documentos/TADS/Biblioteca/obj/Debug/net8.0/refint/Biblioteca.dll
+/home/aluno/Documentos/TADS/Biblioteca/obj/Debug/net8.0/Biblioteca.pdb
+/home/aluno/Documentos/TADS/Biblioteca/obj/Debug/net8.0/Biblioteca.genruntimeconfig.cache
+/home/aluno/Documentos/TADS/Biblioteca/obj/Debug/net8.0/ref/Biblioteca.dll
