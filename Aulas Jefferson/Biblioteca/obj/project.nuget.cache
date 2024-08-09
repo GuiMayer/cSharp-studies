@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "92kCyIaDpY9i/pb0Gw1i8FzmIIacSuBZrkdZpDmuFgUlvtnThoWlTu7DeRskgoRrL+bUKFjbf4PVILKILwKOpw==",
+  "dgSpecHash": "lZLb+MRD4kyC50YSg+GJS/yaZJkHZG2aSP7wyYaDYTEC0Ok09WtMypV9puoT0n45OtMWKsqAMwOH2gMK+1sBFQ==",
   "success": true,
-  "projectFilePath": "/home/aluno/Documentos/TADS/Biblioteca/Biblioteca.csproj",
+  "projectFilePath": "C:\\Users\\usuario\\Documents\\GitHub\\cSharp-studies\\Aulas Jefferson\\Biblioteca\\Biblioteca.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -7,12 +7,16 @@ class Program
 		Biblioteca biblioteca= new Biblioteca();
 		
 		// adicionar cliente
-		biblioteca.clientes.Add(new Cliente{Id = 1, Nome = "Jorge e Mateus", 
-		DataNascimento = new DateTime(1980, 01, 01), Telefone = "62999999"});
+		biblioteca.clientes.Add(new Cliente("Jorge e Mateus", "62999999",
+		01, 01, 1980));
 		
 		// adicionar livro
-		biblioteca.livros.Add(new Livro{Id = 1, Titulo ="Dom Casmurro", 
-		Autor = "Machado de Assis", Disponivel = true});
+		biblioteca.livros.Add(new Livro("Dom Casmurro", 
+		"Machado de Assis"));
+
+		biblioteca.livros[0].MostrarLivro();
+
+		biblioteca.clientes[0].MostrarCliente();
 		
 		// Emprestar livro
 		biblioteca.EmprestarLivro(1, 1);

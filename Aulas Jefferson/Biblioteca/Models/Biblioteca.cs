@@ -6,12 +6,12 @@ namespace Biblioteca;
 public class Biblioteca
 {
 	public List<Cliente> clientes = new List<Cliente>();
-	public List<Livro> livros= new List<Livro>();
-	public List<Emprestimo> emprestimos= new List<Emprestimo>();
+	public List<Livro> livros = new List<Livro>();
+	public List<Emprestimo> emprestimos = new List<Emprestimo>();
 	
 	public void EmprestarLivro(int idCliente, int idLivro)
 	{
-		Livro livro = livros.Find(l => l.Id == idLivro && l.Disponivel == true);
+		Livro? livro = livros.Find(l => l.Id == idLivro && l.Disponivel == true);
 		
 		if (livro == null)
 		{
@@ -19,7 +19,7 @@ public class Biblioteca
 			return;
 		}
 		
-		Cliente cliente = clientes.Find(c => c.Id == idCliente);
+		Cliente? cliente = clientes.Find(c => c.Id == idCliente);
 		
 		if (cliente == null)
 		{
@@ -36,7 +36,7 @@ public class Biblioteca
 			DataDevolucaoPrevista = DateTime.Today.AddDays(15)
 		};
 		
-		livro.Disponivel = false;
+		livro.AlternarDisponivel();
 		emprestimos.Add(emprestimo);
 		
 		Console.WriteLine("Livro emprestado com sucesso!");
@@ -61,7 +61,7 @@ public class Biblioteca
 			return;
 		}
 		
-		emprestimo.LivroEmprestado.Disponivel = true;
+		emprestimo.LivroEmprestado.AlternarDisponivel();
 		emprestimo.DataDevolucao = DateTime.Today;
 		
 		Console.WriteLine("Livro Devolvido com sucesso.");
