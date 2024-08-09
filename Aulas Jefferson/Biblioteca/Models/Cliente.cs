@@ -36,6 +36,6 @@ public class Cliente : Pessoa
 
 	public void MostrarCliente()
 	{
-		Console.WriteLine($"ID: {Id} Nome: {Nome} Telefone: {Telefone} Aniversario: {DataNascimento.Day}/{DataNascimento.Month}/{DataNascimento.Year}\n");
+		Console.WriteLine($"ID: {Id} Nome: {Nome} Telefone: {Telefone} Aniversario: {DataNascimento.Day}/{DataNascimento.Month}/{DataNascimento.Year}");
 	}
 }

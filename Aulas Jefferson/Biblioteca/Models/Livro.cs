@@ -67,6 +67,6 @@ public class Livro
 
 	public void MostrarLivro()
 	{
-		Console.WriteLine($"ID: {Id} Titulo: {Titulo} Autor: {Autor}\n");
+		Console.WriteLine($"ID: {Id} Titulo: {Titulo} Autor: {Autor}");
 	}
 }

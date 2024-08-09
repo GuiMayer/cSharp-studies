@@ -5,9 +5,9 @@ namespace Biblioteca;
 
 public class Biblioteca
 {
-	public List<Cliente> clientes = new List<Cliente>();
-	public List<Livro> livros = new List<Livro>();
-	public List<Emprestimo> emprestimos = new List<Emprestimo>();
+	private List<Cliente> clientes = new List<Cliente>();
+	private List<Livro> livros = new List<Livro>();
+	private List<Emprestimo> emprestimos = new List<Emprestimo>();
 	
 	public void EmprestarLivro(int idCliente, int idLivro)
 	{
@@ -44,7 +44,7 @@ public class Biblioteca
 	
 	public void DevolverLivro(int idCliente, int idLivro)
 	{
-		Livro livro = livros.Find(l => l.Id == idLivro);
+		Livro? livro = livros.Find(l => l.Id == idLivro);
 		
 		if (livro == null)
 		{
@@ -52,7 +52,7 @@ public class Biblioteca
 			return;
 		}
 		
-		Emprestimo emprestimo = emprestimos.Find(e => e.ClienteEmprestimo.Id == idCliente
+		Emprestimo? emprestimo = emprestimos.Find(e => e.ClienteEmprestimo.Id == idCliente
 		&& e.LivroEmprestado.Id == idLivro);
 		
 		if (emprestimo == null)
@@ -66,4 +66,38 @@ public class Biblioteca
 		
 		Console.WriteLine("Livro Devolvido com sucesso.");
 	}	
+
+	public void AdicionarCliente(string nome, string telefoene, int dia, int mes, int ano)
+	{
+		clientes.Add(new Cliente(nome, telefoene, dia, mes, ano));
+	}
+
+	public void AdicionarLivro(string titulo, string autor)
+	{
+		livros.Add(new Livro(titulo, autor));
+	}
+
+	public void MostrarLivro(int id)
+	{
+		try
+		{
+			livros[id-1].MostrarLivro();
+		}
+		catch (ArgumentOutOfRangeException)
+		{
+			Console.WriteLine($"O id {id} não pôde ser encontrado.");
+		}
+	}
+	public void MostrarCliente(int id)
+	{
+		try
+		{
+			clientes[id-1].MostrarCliente();
+		}
+		catch (ArgumentOutOfRangeException)
+		{
+			Console.WriteLine($"O id {id} não pôde ser encontrado.");
+		}
+		
+	}
 }
