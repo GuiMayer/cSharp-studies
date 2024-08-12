@@ -14,8 +14,10 @@ class Program
 		biblioteca.AdicionarLivro("Dom Casmurro", 
 		"Machado de Assis");
 
+		// mostrar livro
 		biblioteca.MostrarLivro(1);
 
+		// mostrar cliente
 		biblioteca.MostrarCliente(1);
 		
 		// Emprestar livro
