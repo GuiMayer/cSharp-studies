@@ -1,0 +1,15 @@
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Aulas Jefferson\Restaurante\bin\Debug\net8.0\Restaurante.exe
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Aulas Jefferson\Restaurante\bin\Debug\net8.0\Restaurante.deps.json
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Aulas Jefferson\Restaurante\bin\Debug\net8.0\Restaurante.runtimeconfig.json
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Aulas Jefferson\Restaurante\bin\Debug\net8.0\Restaurante.dll
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Aulas Jefferson\Restaurante\bin\Debug\net8.0\Restaurante.pdb
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Aulas Jefferson\Restaurante\obj\Debug\net8.0\Restaurante.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Aulas Jefferson\Restaurante\obj\Debug\net8.0\Restaurante.AssemblyInfoInputs.cache
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Aulas Jefferson\Restaurante\obj\Debug\net8.0\Restaurante.AssemblyInfo.cs
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Aulas Jefferson\Restaurante\obj\Debug\net8.0\Restaurante.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Aulas Jefferson\Restaurante\obj\Debug\net8.0\Restaurante.sourcelink.json
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Aulas Jefferson\Restaurante\obj\Debug\net8.0\Restaurante.dll
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Aulas Jefferson\Restaurante\obj\Debug\net8.0\refint\Restaurante.dll
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Aulas Jefferson\Restaurante\obj\Debug\net8.0\Restaurante.pdb
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Aulas Jefferson\Restaurante\obj\Debug\net8.0\Restaurante.genruntimeconfig.cache
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Aulas Jefferson\Restaurante\obj\Debug\net8.0\ref\Restaurante.dll
