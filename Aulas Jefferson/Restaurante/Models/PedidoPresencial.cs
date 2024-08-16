@@ -1,6 +1,7 @@
 class PedidoPresencial : PedidoAbstrato
 {
     public PedidoPresencial(Prato prato) : base(prato) { }
+    public PedidoPresencial() : base() { }
     public override decimal CalcularTotal()
     {
         decimal total = 0;

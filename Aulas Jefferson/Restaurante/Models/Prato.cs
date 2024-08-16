@@ -36,5 +36,13 @@ class Prato
             Console.WriteLine("Número inválido, o preço deve ser um número positivo.");
         }
     }
-    
+    public string IsVegetariano()
+    {
+        if (isVegetariano) {
+            return "sim";
+        } else {
+            return "não";
+        }
+
+    }
 }

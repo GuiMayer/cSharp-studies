@@ -1,14 +1,18 @@
 abstract class PedidoAbstrato
 {
     protected string numeroPedido;
-    private static int contador = 0;
-    protected List<Prato> pratos;
+    private int contador = 0;
+    protected List<Prato> pratos = new List<Prato>();
     public PedidoAbstrato(Prato prato)
     {
-        pratos = new List<Prato>();
         if (prato != null) {
             pratos.Add(prato);
         }
+        contador++;
+        numeroPedido = contador.ToString("D5");
+    }
+    public PedidoAbstrato()
+    {
         contador++;
         numeroPedido = contador.ToString("D5");
     }
@@ -21,5 +25,13 @@ abstract class PedidoAbstrato
     public void RemoverPrato(string nomePrato)
     {
         pratos.RemoveAll(p => p.ObterNome() == nomePrato);
+    }
+    public string ObterNumeroPedido()
+    {
+        return numeroPedido;
+    }
+    public List<Prato> ObterPratos()
+    {
+        return pratos;
     }
 }

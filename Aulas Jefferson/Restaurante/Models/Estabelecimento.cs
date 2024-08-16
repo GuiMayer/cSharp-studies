@@ -23,7 +23,9 @@ class Estabelecimento
 
     private bool VerificarFormatoTelefone(string telefone)
     {
-        string padrao = @"^\(?\d{2}\)?\s?\d{5}-?\d{4}$";
+        if (telefone == null) return false;
+
+        string padrao = @"^(\(?\d{2}\)?\s?\d{5}-?\d{4}|\d{11})$"; // regex para números de telefone no formato (xx) xxxxx-xxxx ou xxxxxxxxxxx
         return Regex.IsMatch(telefone, padrao);
     }
     public string ObterNome()
