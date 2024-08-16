@@ -115,52 +115,64 @@ class Program
     private static void EscolherRestaurante()
     {
         MostrarRestaurantes();
+        if (restaurantes.Count == 0) {Console.WriteLine("Não há nenhum restaurante cadastrado."); return;}
 
         Console.WriteLine("Digite o número do restaurante que deseja selecionar:");
-        if (int.TryParse(Console.ReadLine() ?? "", out int index) && index >= 0 && index < restaurantes.Count)
+        if (int.TryParse(Console.ReadLine() ?? "", out int index) && index > 0 && index < restaurantes.Count+1)
         {
-            restauranteSelecionado = restaurantes[index];
+            restauranteSelecionado = restaurantes[index-1];
             Console.WriteLine($"Restaurante {restauranteSelecionado.ObterNome()} selecionado.");
         }
         else
         {
+            if (index < 0) {Console.WriteLine("Números de restaurante não podem ser negativos."); return;}
             Console.WriteLine("Restaurante inválido, tente novamente.");
         }
     }
     private static void ExcluirRestaurante()
     {
         MostrarRestaurantes();
+        if (restaurantes.Count == 0) {Console.WriteLine("Não há nenhum restaurante cadastrado."); return;}
 
         Console.WriteLine("Digite o número do restaurante que deseja excluir:");
-        if (int.TryParse(Console.ReadLine() ?? "", out int index) && index >= 0 && index < restaurantes.Count)
+        if (int.TryParse(Console.ReadLine() ?? "", out int index) && index > 0 && index < restaurantes.Count+1)
         {
-            Console.WriteLine($"Restaurante {restaurantes[index].ObterNome()} excluído.");
-            restaurantes.RemoveAt(index);
+            
+            Console.WriteLine($"Restaurante {restaurantes[index-1].ObterNome()} excluído.");
+            restaurantes.RemoveAt(index-1);
         }
         else
         {
+            if (index < 0) {Console.WriteLine("Números de restaurante não podem ser negativos."); return;}
             Console.WriteLine("Restaurante inválido, tente novamente.");
         }
+        Console.WriteLine(index);
     }
     private static void MostrarRestaurantes()
     {
+        if (restaurantes.Count == 0) {return;}
         Console.WriteLine("Restaurantes cadastrados:");
         for (int i = 0; i < restaurantes.Count; i++)
         {
-            Console.WriteLine($"{i}: {restaurantes[i].ObterNome()}");
+            Console.WriteLine($"{i+1}: {restaurantes[i].ObterNome()}");
         }
     }
     private static void VerRestaurante()
     {
         Console.WriteLine($"Nome: {restauranteSelecionado.ObterNome()} Endereço: {restauranteSelecionado.ObterEndereco()}");
-        Console.WriteLine($"Telefone: {restauranteSelecionado.ObterNome()}");
+        Console.WriteLine($"Telefone: {restauranteSelecionado.ObterTelefone()}");
     }
     private static void VerCardapio()
     {
-        foreach (var prato in restauranteSelecionado.ObterCardapio()) {
-            Console.WriteLine("Nome do Prato: " + prato.ObterNome() + " Preço: " + prato.ObterPreco() + " Vegetariano:" + prato.IsVegetariano());
+        if (restauranteSelecionado.ObterCardapio().Count() == 0) {
+            Console.WriteLine("Não há pratos no cardápio.");
+            return;
+        } else {
+            foreach (var prato in restauranteSelecionado.ObterCardapio()) {
+                Console.WriteLine("Nome do Prato: " + prato.ObterNome() + " Preço: " + prato.ObterPreco() + " Vegetariano:" + prato.IsVegetariano());
+            }
         }
-    }
+        }
     private static void CadastrarPrato()
     {
         Console.WriteLine("Nome do prato:");
@@ -169,13 +181,13 @@ class Program
         if (!decimal.TryParse(Console.ReadLine() ?? "", out decimal precoPrato)) {
             Console.WriteLine("Preço inválido!");
         }
-        Console.WriteLine("Digite sim se o prato for vegetariano e não se ele não for.");
+        Console.WriteLine("Digite S se o prato for vegetariano e N se ele não for.");
         string isVegetariano = Console.ReadLine() ?? "";
-        if (isVegetariano.ToLower() == "sim") {
+        if (isVegetariano.ToLower() == "sim" || isVegetariano.ToLower() == "s") {
             restauranteSelecionado.AdicionarPrato(new Prato(nomePrato, precoPrato, true));
         }
-        else if (isVegetariano.ToLower() == "não" | isVegetariano == "nao") {
-            restauranteSelecionado.AdicionarPrato(new Prato(nomePrato, precoPrato, true));
+        else if (isVegetariano.ToLower() == "não" || isVegetariano == "nao" || isVegetariano.ToLower() == "n") {
+            restauranteSelecionado.AdicionarPrato(new Prato(nomePrato, precoPrato, false));
         } else {
             Console.WriteLine("Por favor, digite sim ou não.");
         }
@@ -184,7 +196,11 @@ class Program
     {
         Console.WriteLine("Digite o nome do prato:");
         string nomePrato = Console.ReadLine() ?? "";
-        restauranteSelecionado.RemoverPrato(nomePrato);
+        if (restauranteSelecionado.RemoverPrato(nomePrato)) {
+            Console.WriteLine($"Prato {nomePrato} removido.");
+        } else {
+            Console.WriteLine($"Prato {nomePrato} não existe.");
+        }
     }
     private static void AdicionarPedido()
     {
@@ -206,9 +222,13 @@ class Program
             if (!((Console.ReadLine() ?? "") == "0")) {
                 continuar = false;
 
-                while (opcao != "1" | opcao != "2") {
+                while (true) {
                     Console.WriteLine("1. Pedido presencial.");
                     Console.WriteLine("2. Pedido delivery.");
+                    opcao = Console.ReadLine() ?? "";
+                    if (opcao == "1" || opcao == "2") {
+                        break;
+                    }
                 }
                 
                 switch (opcao) {
@@ -226,16 +246,36 @@ class Program
             
         }
     }
-    private static void VerPedido()
+    private static void VerPedidos() // imprime todos os pedidos
     {
-        restauranteSelecionado.VerPedido();
+        for (int i = 0; i < restauranteSelecionado.ObterPedidos().Count(); i++) {
+            var pedido = restauranteSelecionado.ObterPedidos()[i];
+            Console.WriteLine("Número do pedido: " + pedido.ObterNumeroPedido());
+            Console.WriteLine("Lista de pratos do pedido:");
+            foreach (var prato in pedido.ObterPratos()) {
+                Console.WriteLine("Nome do prato: " + prato.ObterNome() + "  Valor do prato: " + prato.ObterPreco());
+            }
+            Console.WriteLine($"Valor total do pedido: {pedido.CalcularTotal()}");
+            Console.WriteLine();
+        }
     }
-    private static void VerPedidos()
+    private static void VerPedido() // imprime um pedido especifico
     {
         Console.WriteLine("Escreva o número do pedido: ");
         if (int.TryParse(Console.ReadLine() ?? "", out int opcao))
         {
-            restauranteSelecionado.VerPedido(opcao - 1);
+            try {
+                var pedido = restauranteSelecionado.ObterPedidos()[opcao-1];
+                Console.WriteLine("Número do pedido: " + pedido.ObterNumeroPedido());
+                Console.WriteLine("Lista de pratos do pedido:");
+                foreach (var prato in pedido.ObterPratos()) {
+                    Console.WriteLine("Nome do prato: " + prato.ObterNome() + "  Valor do prato: " + prato.ObterPreco());
+                }
+                Console.WriteLine();
+            }
+            catch (ArgumentOutOfRangeException) {
+                Console.WriteLine("Número de pedido inexistente.");
+            }
         }
         else {
             Console.WriteLine("Número do pedido inválido.");

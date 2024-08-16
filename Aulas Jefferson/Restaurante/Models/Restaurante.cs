@@ -47,30 +47,21 @@ class Restaurante : Estabelecimento
         }
         pedidos.Add(pedidoPresencial);
     }
-    public void VerPedido() // imprime todos os pedidos
+    public List<PedidoAbstrato> ObterPedidos()
     {
-        for (int i = 0; i < pedidos.Count(); i++) {
-            VerPedido(i);
-        }
-    }
-    public void VerPedido(int index)
-    {
-        var pedido = pedidos[index];
-        Console.WriteLine("Número do pedido: " + pedido.ObterNumeroPedido());
-        Console.WriteLine("Lista de pratos do pedido:");
-        foreach (var prato in pedido.ObterPratos()) {
-            Console.WriteLine("Nome do prato: " + prato.ObterNome() + "  Valor do prato: " + prato.ObterPreco());
-        }
-        Console.WriteLine();
-        
+        return pedidos;
     }
     public void AdicionarPrato(Prato prato)
     {
         cardapio.Add(prato);
     }
-    public void RemoverPrato(string nomePrato)
+    public bool RemoverPrato(string nomePrato)
     {
-        cardapio.RemoveAll(p => p.ObterNome().ToLower() == nomePrato.ToLower());
+        if (cardapio.RemoveAll(p => p.ObterNome().ToLower() == nomePrato.ToLower()) == 0) {
+            return false;
+        } else {
+            return true;
+        }
     }
     public Prato? BuscarPrato(string nomePrato)
     {
