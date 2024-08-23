@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\sique\\OneDrive\\Documentos\\GitHub\\cSharp-studies\\Aulas Jefferson\\ConsoleRPG\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DC14A292-C305-46EA-812D-35E9A3181979}|ConsoleRPG\\ConsoleRPG.csproj|c:\\users\\sique\\onedrive\\documentos\\github\\csharp-studies\\aulas jefferson\\consolerpg\\consolerpg\\models\\races\\elfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC14A292-C305-46EA-812D-35E9A3181979}|ConsoleRPG\\ConsoleRPG.csproj|solutionrelative:consolerpg\\models\\races\\elfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC14A292-C305-46EA-812D-35E9A3181979}|ConsoleRPG\\ConsoleRPG.csproj|c:\\users\\sique\\onedrive\\documentos\\github\\csharp-studies\\aulas jefferson\\consolerpg\\consolerpg\\models\\races\\anao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC14A292-C305-46EA-812D-35E9A3181979}|ConsoleRPG\\ConsoleRPG.csproj|solutionrelative:consolerpg\\models\\races\\anao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC14A292-C305-46EA-812D-35E9A3181979}|ConsoleRPG\\ConsoleRPG.csproj|c:\\users\\sique\\onedrive\\documentos\\github\\csharp-studies\\aulas jefferson\\consolerpg\\consolerpg\\models\\races\\humano.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC14A292-C305-46EA-812D-35E9A3181979}|ConsoleRPG\\ConsoleRPG.csproj|solutionrelative:consolerpg\\models\\races\\humano.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC14A292-C305-46EA-812D-35E9A3181979}|ConsoleRPG\\ConsoleRPG.csproj|c:\\users\\sique\\onedrive\\documentos\\github\\csharp-studies\\aulas jefferson\\consolerpg\\consolerpg\\personagemabstrato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC14A292-C305-46EA-812D-35E9A3181979}|ConsoleRPG\\ConsoleRPG.csproj|solutionrelative:consolerpg\\personagemabstrato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DC14A292-C305-46EA-812D-35E9A3181979}|ConsoleRPG\\ConsoleRPG.csproj|c:\\users\\sique\\onedrive\\documentos\\github\\csharp-studies\\aulas jefferson\\consolerpg\\consolerpg\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DC14A292-C305-46EA-812D-35E9A3181979}|ConsoleRPG\\ConsoleRPG.csproj|solutionrelative:consolerpg\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -18,15 +34,67 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Elfo.cs",
+              "DocumentMoniker": "C:\\Users\\sique\\OneDrive\\Documentos\\GitHub\\cSharp-studies\\Aulas Jefferson\\ConsoleRPG\\ConsoleRPG\\Models\\Races\\Elfo.cs",
+              "RelativeDocumentMoniker": "ConsoleRPG\\Models\\Races\\Elfo.cs",
+              "ToolTip": "C:\\Users\\sique\\OneDrive\\Documentos\\GitHub\\cSharp-studies\\Aulas Jefferson\\ConsoleRPG\\ConsoleRPG\\Models\\Races\\Elfo.cs",
+              "RelativeToolTip": "ConsoleRPG\\Models\\Races\\Elfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T21:29:13.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Anao.cs",
+              "DocumentMoniker": "C:\\Users\\sique\\OneDrive\\Documentos\\GitHub\\cSharp-studies\\Aulas Jefferson\\ConsoleRPG\\ConsoleRPG\\Models\\Races\\Anao.cs",
+              "RelativeDocumentMoniker": "ConsoleRPG\\Models\\Races\\Anao.cs",
+              "ToolTip": "C:\\Users\\sique\\OneDrive\\Documentos\\GitHub\\cSharp-studies\\Aulas Jefferson\\ConsoleRPG\\ConsoleRPG\\Models\\Races\\Anao.cs",
+              "RelativeToolTip": "ConsoleRPG\\Models\\Races\\Anao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T21:28:44.939Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "Humano.cs",
+              "DocumentMoniker": "C:\\Users\\sique\\OneDrive\\Documentos\\GitHub\\cSharp-studies\\Aulas Jefferson\\ConsoleRPG\\ConsoleRPG\\Models\\Races\\Humano.cs",
+              "RelativeDocumentMoniker": "ConsoleRPG\\Models\\Races\\Humano.cs",
+              "ToolTip": "C:\\Users\\sique\\OneDrive\\Documentos\\GitHub\\cSharp-studies\\Aulas Jefferson\\ConsoleRPG\\ConsoleRPG\\Models\\Races\\Humano.cs",
+              "RelativeToolTip": "ConsoleRPG\\Models\\Races\\Humano.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T21:19:08.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PersonagemAbstrato.cs",
+              "DocumentMoniker": "C:\\Users\\sique\\OneDrive\\Documentos\\GitHub\\cSharp-studies\\Aulas Jefferson\\ConsoleRPG\\ConsoleRPG\\PersonagemAbstrato.cs",
+              "RelativeDocumentMoniker": "ConsoleRPG\\PersonagemAbstrato.cs",
+              "ToolTip": "C:\\Users\\sique\\OneDrive\\Documentos\\GitHub\\cSharp-studies\\Aulas Jefferson\\ConsoleRPG\\ConsoleRPG\\PersonagemAbstrato.cs",
+              "RelativeToolTip": "ConsoleRPG\\PersonagemAbstrato.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T21:05:36.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\sique\\OneDrive\\Documentos\\GitHub\\cSharp-studies\\Aulas Jefferson\\ConsoleRPG\\ConsoleRPG\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleRPG\\Program.cs",
@@ -39,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Utilidades.cs",
               "DocumentMoniker": "C:\\Users\\sique\\OneDrive\\Documentos\\GitHub\\cSharp-studies\\Aulas Jefferson\\ConsoleRPG\\ConsoleRPG\\Models\\Utilidades.cs",
               "RelativeDocumentMoniker": "ConsoleRPG\\Models\\Utilidades.cs",
@@ -47,8 +115,7 @@
               "RelativeToolTip": "ConsoleRPG\\Models\\Utilidades.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAA8wCkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T20:35:54.729Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-23T20:35:54.729Z"
             },
             {
               "$type": "Bookmark",
