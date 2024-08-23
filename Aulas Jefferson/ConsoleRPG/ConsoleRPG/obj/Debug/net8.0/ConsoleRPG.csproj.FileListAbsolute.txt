@@ -1,0 +1,15 @@
+C:\Users\sique\OneDrive\Documentos\GitHub\cSharp-studies\Aulas Jefferson\ConsoleRPG\ConsoleRPG\bin\Debug\net8.0\ConsoleRPG.exe
+C:\Users\sique\OneDrive\Documentos\GitHub\cSharp-studies\Aulas Jefferson\ConsoleRPG\ConsoleRPG\bin\Debug\net8.0\ConsoleRPG.deps.json
+C:\Users\sique\OneDrive\Documentos\GitHub\cSharp-studies\Aulas Jefferson\ConsoleRPG\ConsoleRPG\bin\Debug\net8.0\ConsoleRPG.runtimeconfig.json
+C:\Users\sique\OneDrive\Documentos\GitHub\cSharp-studies\Aulas Jefferson\ConsoleRPG\ConsoleRPG\bin\Debug\net8.0\ConsoleRPG.dll
+C:\Users\sique\OneDrive\Documentos\GitHub\cSharp-studies\Aulas Jefferson\ConsoleRPG\ConsoleRPG\bin\Debug\net8.0\ConsoleRPG.pdb
+C:\Users\sique\OneDrive\Documentos\GitHub\cSharp-studies\Aulas Jefferson\ConsoleRPG\ConsoleRPG\obj\Debug\net8.0\ConsoleRPG.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sique\OneDrive\Documentos\GitHub\cSharp-studies\Aulas Jefferson\ConsoleRPG\ConsoleRPG\obj\Debug\net8.0\ConsoleRPG.AssemblyInfoInputs.cache
+C:\Users\sique\OneDrive\Documentos\GitHub\cSharp-studies\Aulas Jefferson\ConsoleRPG\ConsoleRPG\obj\Debug\net8.0\ConsoleRPG.AssemblyInfo.cs
+C:\Users\sique\OneDrive\Documentos\GitHub\cSharp-studies\Aulas Jefferson\ConsoleRPG\ConsoleRPG\obj\Debug\net8.0\ConsoleRPG.csproj.CoreCompileInputs.cache
+C:\Users\sique\OneDrive\Documentos\GitHub\cSharp-studies\Aulas Jefferson\ConsoleRPG\ConsoleRPG\obj\Debug\net8.0\ConsoleRPG.sourcelink.json
+C:\Users\sique\OneDrive\Documentos\GitHub\cSharp-studies\Aulas Jefferson\ConsoleRPG\ConsoleRPG\obj\Debug\net8.0\ConsoleRPG.dll
+C:\Users\sique\OneDrive\Documentos\GitHub\cSharp-studies\Aulas Jefferson\ConsoleRPG\ConsoleRPG\obj\Debug\net8.0\refint\ConsoleRPG.dll
+C:\Users\sique\OneDrive\Documentos\GitHub\cSharp-studies\Aulas Jefferson\ConsoleRPG\ConsoleRPG\obj\Debug\net8.0\ConsoleRPG.pdb
+C:\Users\sique\OneDrive\Documentos\GitHub\cSharp-studies\Aulas Jefferson\ConsoleRPG\ConsoleRPG\obj\Debug\net8.0\ConsoleRPG.genruntimeconfig.cache
+C:\Users\sique\OneDrive\Documentos\GitHub\cSharp-studies\Aulas Jefferson\ConsoleRPG\ConsoleRPG\obj\Debug\net8.0\ref\ConsoleRPG.dll
