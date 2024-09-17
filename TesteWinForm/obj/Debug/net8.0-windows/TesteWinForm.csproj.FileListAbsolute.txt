@@ -1,0 +1,15 @@
+C:\Users\usuario\Documents\GitHub\cSharp-studies\TesteWinForm\bin\Debug\net8.0-windows\TesteWinForm.exe
+C:\Users\usuario\Documents\GitHub\cSharp-studies\TesteWinForm\bin\Debug\net8.0-windows\TesteWinForm.deps.json
+C:\Users\usuario\Documents\GitHub\cSharp-studies\TesteWinForm\bin\Debug\net8.0-windows\TesteWinForm.runtimeconfig.json
+C:\Users\usuario\Documents\GitHub\cSharp-studies\TesteWinForm\bin\Debug\net8.0-windows\TesteWinForm.dll
+C:\Users\usuario\Documents\GitHub\cSharp-studies\TesteWinForm\bin\Debug\net8.0-windows\TesteWinForm.pdb
+C:\Users\usuario\Documents\GitHub\cSharp-studies\TesteWinForm\obj\Debug\net8.0-windows\TesteWinForm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usuario\Documents\GitHub\cSharp-studies\TesteWinForm\obj\Debug\net8.0-windows\TesteWinForm.AssemblyInfoInputs.cache
+C:\Users\usuario\Documents\GitHub\cSharp-studies\TesteWinForm\obj\Debug\net8.0-windows\TesteWinForm.AssemblyInfo.cs
+C:\Users\usuario\Documents\GitHub\cSharp-studies\TesteWinForm\obj\Debug\net8.0-windows\TesteWinForm.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Documents\GitHub\cSharp-studies\TesteWinForm\obj\Debug\net8.0-windows\TesteWinForm.sourcelink.json
+C:\Users\usuario\Documents\GitHub\cSharp-studies\TesteWinForm\obj\Debug\net8.0-windows\TesteWinForm.dll
+C:\Users\usuario\Documents\GitHub\cSharp-studies\TesteWinForm\obj\Debug\net8.0-windows\refint\TesteWinForm.dll
+C:\Users\usuario\Documents\GitHub\cSharp-studies\TesteWinForm\obj\Debug\net8.0-windows\TesteWinForm.pdb
+C:\Users\usuario\Documents\GitHub\cSharp-studies\TesteWinForm\obj\Debug\net8.0-windows\TesteWinForm.genruntimeconfig.cache
+C:\Users\usuario\Documents\GitHub\cSharp-studies\TesteWinForm\obj\Debug\net8.0-windows\ref\TesteWinForm.dll

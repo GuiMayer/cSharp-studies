@@ -1,0 +1,15 @@
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Aulas Jefferson\RPGConsole\bin\Debug\net8.0\RPGConsole.exe
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Aulas Jefferson\RPGConsole\bin\Debug\net8.0\RPGConsole.deps.json
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Aulas Jefferson\RPGConsole\bin\Debug\net8.0\RPGConsole.runtimeconfig.json
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Aulas Jefferson\RPGConsole\bin\Debug\net8.0\RPGConsole.dll
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Aulas Jefferson\RPGConsole\bin\Debug\net8.0\RPGConsole.pdb
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Aulas Jefferson\RPGConsole\obj\Debug\net8.0\RPGConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Aulas Jefferson\RPGConsole\obj\Debug\net8.0\RPGConsole.AssemblyInfoInputs.cache
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Aulas Jefferson\RPGConsole\obj\Debug\net8.0\RPGConsole.AssemblyInfo.cs
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Aulas Jefferson\RPGConsole\obj\Debug\net8.0\RPGConsole.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Aulas Jefferson\RPGConsole\obj\Debug\net8.0\RPGConsole.sourcelink.json
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Aulas Jefferson\RPGConsole\obj\Debug\net8.0\RPGConsole.dll
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Aulas Jefferson\RPGConsole\obj\Debug\net8.0\refint\RPGConsole.dll
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Aulas Jefferson\RPGConsole\obj\Debug\net8.0\RPGConsole.pdb
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Aulas Jefferson\RPGConsole\obj\Debug\net8.0\RPGConsole.genruntimeconfig.cache
+C:\Users\usuario\Documents\GitHub\cSharp-studies\Aulas Jefferson\RPGConsole\obj\Debug\net8.0\ref\RPGConsole.dll
